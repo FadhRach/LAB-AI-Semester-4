@@ -1,0 +1,44 @@
+LOCUS       LC005523                 720 bp    DNA     linear   SYN 10-DEC-2014
+DEFINITION  Synthetic construct mRNA for Green Fluorescent Protein (GFP) gene, complete cds.
+ACCESSION   LC005523
+VERSION     LC005523.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+REFERENCE   1  (bases 1 to 720)
+  AUTHORS   Saito,K., Chang,Y.F., Horikawa,K., Hatsugai,N., Higuchi,T.,
+            Hashimoto,M., Tsukiji,S. and Nagai,T.
+  TITLE     Absence of oxygen requirement for green fluorescent protein luminosity
+  JOURNAL   Nature Communications 5, 4976 (2014)
+COMMENT     An engineered green fluorescent protein (GFP) sequence designed for 
+            high brightness and stability in various cellular environments.
+FEATURES             Location/Qualifiers
+     source          1..720
+                     /organism="synthetic construct"
+                     /mol_type="other RNA"
+                     /db_xref="taxon:32630"
+     CDS             1..720
+                     /codon_start=1
+                     /gene="GFP"
+                     /product="green fluorescent protein"
+                     /protein_id="BAO45621.1"
+                     /translation="MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTL
+                     KFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKD
+                     DGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNG
+                     IKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHM
+                     VLLEFVTAAGITHGMDELYK"
+ORIGIN      
+        1 atgagtaaag gagaagaact tttcactgga gttgtcccaa ttcttgttga attagatggt
+       61 gatgttaatg ggcacaaatt ttctgtcagt ggagagggtg aaggtgatgc aacatacgga
+      121 aaacttaccc ttaaatttat ttgcactact ggaaaactac ctgttccatg gccaacactt
+      181 gtcactactt tctcttatgg tgttcaatgc ttttcaagat acccagatca tatgaaacag
+      241 catgactttt tcaagagtgc catgcccgaa ggttatgtac aggaaagaac tatatttttc
+      301 aaagatgacg ggaactacaa gacacgtgct gaagtcaagt ttgaaggtga tacccttgtt
+      361 aatagaatcg agttaaaagg tattgatttt aaagaagatg gaaacattct tggacacaaa
+      421 ttggaataca actataactc acacaatgta tacatcatgg cagacaaaca aaagaatgga
+      481 atcaaagtta acttcaaaat tagacacaac attgaagatg gaagcgttca actagcagac
+      541 cattatcaac aaaatactcc aattggcgat ggccctgtcc ttttaccaga caaccattac
+      601 ctgtccacac aatctgccct ttcgaaagat cccaacgaaa agagagatca catggtcctg
+      661 cttgagtttg taacagctgc tgggattaca catggcatgg atgaactata caaataaatt
+//
