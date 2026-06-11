@@ -1,0 +1,75 @@
+- generic [ref=e2]:
+  - generic [ref=e11]:
+    - heading "Info Proyek" [level=1] [ref=e15]
+    - paragraph [ref=e20]:
+      - strong [ref=e21]: Early Detection of AML
+      - text: menggunakan machine learning pada data ekspresi gen (GSE9476, 64 sampel, 22.283 fitur).
+    - separator [ref=e26]
+    - heading "Model Terpilih" [level=3] [ref=e30]
+    - generic [ref=e33]:
+      - paragraph [ref=e36]: Algoritma
+      - paragraph [ref=e39]: SVM RBF
+    - generic [ref=e42]:
+      - paragraph [ref=e45]: Recall (Test)
+      - paragraph [ref=e48]: "1.0"
+    - generic [ref=e51]:
+      - paragraph [ref=e54]: F1 Score (Test)
+      - paragraph [ref=e57]: "1.0"
+    - generic [ref=e60]:
+      - paragraph [ref=e63]: ROC-AUC (Test)
+      - paragraph [ref=e66]: "1.0"
+    - separator [ref=e71]
+    - alert [ref=e74]:
+      - paragraph [ref=e79]:
+        - strong [ref=e80]: "Disclaimer:"
+        - text: Ini adalah proof-of-concept akademis (Kelompok 7, BINUS). BUKAN alat diagnosis klinis dan tidak boleh digunakan untuk pengambilan keputusan medis.
+  - generic [ref=e3]:
+    - banner [ref=e83]:
+      - generic [ref=e86]:
+        - generic [ref=e178]:
+          - img "Running..." [ref=e179]:
+            - img [ref=e180]
+          - button "Stop" [ref=e184] [cursor=pointer]
+        - button "Deploy" [ref=e97] [cursor=pointer]:
+          - generic [ref=e99]: Deploy
+        - button "Main menu" [ref=e101] [cursor=pointer]:
+          - img [ref=e102]
+    - generic [ref=e105]:
+      - heading "Early Detection of Acute Myeloid Leukemia" [level=1] [ref=e110]:
+        - text: Early Detection of Acute Myeloid Leukemia
+        - generic [ref=e111]:
+          - link "Link to heading":
+            - /url: "#early-detection-of-acute-myeloid-leukemia"
+            - img
+      - paragraph [ref=e116]: Klasifikasi AML vs Non-AML dari profil ekspresi gen menggunakan Machine Learning | Kelompok 7 — Computational Biology, BINUS
+      - generic [ref=e118]:
+        - tablist [ref=e120]:
+          - tab "Sampel Test" [selected] [ref=e121] [cursor=pointer]:
+            - paragraph [ref=e123]: Sampel Test
+          - tab "Upload CSV" [ref=e124] [cursor=pointer]:
+            - paragraph [ref=e126]: Upload CSV
+          - tab "Metrik Model" [ref=e127] [cursor=pointer]:
+            - paragraph [ref=e129]: Metrik Model
+        - tabpanel "Sampel Test" [ref=e132]:
+          - generic [ref=e133]:
+            - heading "Prediksi pada Sampel Test" [level=3] [ref=e138]:
+              - text: Prediksi pada Sampel Test
+              - generic [ref=e139]:
+                - link "Link to heading":
+                  - /url: "#prediksi-pada-sampel-test"
+                  - img
+            - paragraph [ref=e144]: Pilih satu sampel dari test set yang digunakan saat evaluasi final.
+            - generic [ref=e146]:
+              - paragraph [ref=e150]: "Pilih sampel:"
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]: "Sampel 43 (Label Asli: AML)"
+                  - 'combobox "Selected Sampel 43 (Label Asli: AML). Pilih sampel:" [ref=e156]'
+                - img "open" [ref=e158]
+            - group [ref=e162]:
+              - generic "keyboard_arrow_right Lihat nilai ekspresi gen (5 fitur pertama)" [ref=e163] [cursor=pointer]:
+                - generic [ref=e164]:
+                  - generic [ref=e166]: keyboard_arrow_right
+                  - paragraph [ref=e169]: Lihat nilai ekspresi gen (5 fitur pertama)
+            - button "Prediksi" [active] [ref=e172] [cursor=pointer]:
+              - paragraph [ref=e176]: Prediksi
